@@ -30,7 +30,7 @@ dev = ["pytest>=8"]
 
 [project.urls]
 Homepage = "https://crochetpatterngen.com"
-Repository = "https://github.com/crochetpatterngen/crochet-engine"
+Repository = "https://github.com/dengyu123456/crochet-engine"
 
 [project.scripts]
 crochet-chart = "crochet_chart_engine.cli:main"
