@@ -115,3 +115,5 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 Free web tool + pattern library at **[crochetpatterngen.com](https://crochetpatterngen.com)**.
+
+<!-- mcp-name: io.github.dengyu123456/crochet-engine -->

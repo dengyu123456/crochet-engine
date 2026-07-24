@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dengyu123456/crochet-engine",
+  "description": "Deterministic photo-to-crochet-chart engine: stitch counts, 5 techniques, yarn estimates.",
+  "repository": {
+    "url": "https://github.com/dengyu123456/crochet-engine",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "crochetpatterngen-engine",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "named",
+          "name": "--from",
+          "value": "crochetpatterngen-engine[mcp]",
+          "isRepeated": false
+        },
+        {
+          "type": "positional",
+          "value": "crochetpatterngen-mcp"
+        }
+      ]
+    }
+  ]
+}
